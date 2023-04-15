@@ -1,0 +1,128 @@
+---
+---
+
+@import "{{ site.theme }}";
+body {
+  background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh0eljIlVyxwsafQ9-TWf4Kacol4mBk7AhRH1qMtyKCal6BKX0KhVGWCehnbaGHfEhKRwhmhLmx783O4ynqiEmCvgDfYmxrxwM0LmpzgxxSv5BgHgdCCL1Bee6Yj4p_rg6AghhGV_iyHH7aKm5e0J6HJERzqrT_gTxODSeurY6fiCktVlSMQcRETFsJ/s320/custom%20gingham%20final.png");
+  color: orange;
+}
+* {
+  box-sizing: none;
+  color: #ffc0cb;
+  font-family: none;
+}
+
+.forkme-button {
+  margin: 0;
+  width: 1vw;
+  height: 1vw;
+  transition-duration: 0.3s;
+}
+
+.forkme-button:hover {
+  width: 1vw;
+  height: 1vw;
+}
+
+.fork-link {
+  padding: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+    background-color: #e0b6ce;
+
+}
+
+a.icon {
+  margin: 0.5%;
+  padding: 0;
+  width: 5% !important;
+}
+
+img.icon {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+header {
+  display: none;
+  align-items: start;
+  padding: 0;
+  margin: 0;
+  gap: 1.5%;
+  background-color: #957086;
+}
+
+header a {
+  padding: 0;
+  margin: 0;
+  text-decoration: underline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  text-align: justify;
+}
+
+.game-container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: auto;
+}
+
+.game-select {
+  display: grid;
+  justify-content: center;
+  gap: 3%;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+
+.game-button {
+  background-color: #e0b6ce;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin-bottom: 3%;
+  padding: 2px;
+  transition-duration: 0.3s;
+  transform: translate(0px, 0px);
+}
+
+.game-button img {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  width: 200px;
+  height: 150px;
+  object-fit: contain;
+}
+
+.game-button a {
+  text-decoration: none;
+}
+
+.game-button:hover {
+  transition-duration: 0.3s;
+  transform: translate(0px, -10px);
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+
